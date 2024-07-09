@@ -1,6 +1,7 @@
 # WeatherWise App
 
-![WeatherWise](path_to_your_image)
+![1](https://github.com/engrmumtazali0112/weather_app/assets/156393630/1137af63-4f49-4717-a98a-45980429a68f)
+
 
 ## Overview
 WeatherWise App is a dynamic and responsive web application providing accurate and up-to-date weather reports. Developed using Django, it leverages the OpenWeatherMap API to fetch weather data for multiple cities, displaying current conditions and a 10-day forecast.
@@ -12,14 +13,15 @@ WeatherWise App is a dynamic and responsive web application providing accurate a
 - **Scalable**: Add multiple cities to monitor weather conditions in various locations.
 
 ## Demo
-[Live Demo](link_to_demo)
+![code](https://github.com/engrmumtazali0112/weather_app/assets/156393630/c6592775-eb85-4cb5-8342-feb35e3a6789)
+![database](https://github.com/engrmumtazali0112/weather_app/assets/156393630/9c2aa10a-15c5-46de-b826-5ff4a8e19729)
+
 
 ## Screenshots
-![Screenshot 1](path_to_screenshot1)
-![Screenshot 2](path_to_screenshot2)
+
 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/WeatherWiseApp.git
+   git clone https://github.com/engrmumtazali0112/weather_app/
    cd WeatherWiseApp
