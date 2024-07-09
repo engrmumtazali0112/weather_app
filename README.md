@@ -17,11 +17,80 @@ WeatherWise App is a dynamic and responsive web application providing accurate a
 ![database](https://github.com/engrmumtazali0112/weather_app/assets/156393630/9c2aa10a-15c5-46de-b826-5ff4a8e19729)
 
 
-## Screenshots
-
 
 ## Installation
+
 1. Clone the repository:
-   ```bash
    git clone https://github.com/engrmumtazali0112/weather_app/
    cd WeatherWiseApp
+   Create and activate a virtual environment:
+
+
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+Install dependencies:
+
+
+pip install -r requirements.txt
+Set up the database:
+
+
+python manage.py migrate
+Run the development server:
+
+python manage.py runserver
+Open your browser and navigate to http://127.0.0.1:8000.
+
+Usage
+Enter city names to fetch weather data and display it in the app.
+Contributing
+Fork the repository.
+Create a new branch:
+
+git checkout -b feature_branch
+Make your changes and commit them:
+
+git commit -m 'Add some feature'
+Push to the branch:
+
+git push origin feature_branch
+Create a new Pull Request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgements
+OpenWeatherMap API
+Bulma CSS Framework
+Contact
+Feel free to reach out if you have any questions or suggestions!
+
+Email: engrmumtazali01@gmail.com
+LinkedIn: https://www.linkedin.com/in/mumtazali12/
+
+5. **LICENSE**:
+   - Include a license file. For most open-source projects, the MIT License is a good choice.
+
+```plaintext
+MIT License
+
+[Full text of the MIT License]
+.gitignore:
+Add a .gitignore file to exclude unnecessary files from your repository.
+
+# Python
+*.pyc
+__pycache__/
+venv/
+
+# Django
+db.sqlite3
+/static/
+requirements.txt:
+List all the dependencies required to run your project.
+
+Django>=3.0,<4.0
+requests
+
+Detailed Documentation:
+Ensure your code is well-commented and provide additional documentation if necessary.
+By organizing your repository in this way, you make it easier for others to understand, use, and contribute to your project.
